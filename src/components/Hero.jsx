@@ -25,7 +25,7 @@ function Hero() {
         </div>
       </div>
       <div className="hero-visual">
-        <div className="avatar-circle">GP</div>
+        <img src="/profile.png" alt="Gem Pazziuagan" className="avatar-circle" />
         <div className="hero-stat-cards">
           <div className="stat-card">
             <span className="stat-num">6+</span>
