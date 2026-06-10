@@ -1,0 +1,171 @@
+.about {
+  background: #0f172a;
+  padding: 6rem;
+  border-top: 1px solid #1e293b;
+}
+
+.about-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.section-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #38bdf8;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.5rem;
+}
+
+.section-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #f8fafc;
+  margin-bottom: 3rem;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+.about-bio p {
+  font-size: 1rem;
+  color: #94a3b8;
+  line-height: 1.85;
+  margin-bottom: 1.25rem;
+}
+
+.about-bio strong {
+  color: #38bdf8;
+}
+
+.about-meta {
+  margin-top: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.meta-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 0.875rem;
+  color: #64748b;
+  line-height: 1.5;
+}
+
+.meta-icon {
+  font-size: 1rem;
+  flex-shrink: 0;
+}
+
+.skills-block {
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+.block-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #f8fafc;
+  margin-bottom: 1.25rem;
+}
+
+.skill-group {
+  margin-bottom: 1rem;
+}
+
+.skill-category {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #475569;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.skill-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.skill-pill {
+  font-size: 0.75rem;
+  padding: 4px 10px;
+  background: #0f172a;
+  color: #94a3b8;
+  border: 1px solid #334155;
+  border-radius: 20px;
+}
+
+.timeline-block {
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 12px;
+  padding: 1.5rem 2rem;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.timeline-item {
+  display: grid;
+  grid-template-columns: 110px 20px 1fr;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 0;
+  border-bottom: 1px solid #1e293b;
+  position: relative;
+}
+
+.timeline-item:last-child {
+  border-bottom: none;
+}
+
+.timeline-year {
+  font-size: 0.75rem;
+  color: #38bdf8;
+  font-weight: 500;
+  text-align: right;
+}
+
+.timeline-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #38bdf8;
+  border: 2px solid #0f172a;
+  box-shadow: 0 0 0 2px #38bdf8;
+  justify-self: center;
+}
+
+.timeline-role {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #f1f5f9;
+}
+
+.timeline-company {
+  font-size: 0.8rem;
+  color: #64748b;
+  margin-top: 2px;
+}
+
+@media (max-width: 768px) {
+  .about { padding: 3rem 1.5rem; }
+  .about-grid { grid-template-columns: 1fr; gap: 2rem; }
+  .section-title { font-size: 1.75rem; }
+  .timeline-item { grid-template-columns: 90px 16px 1fr; gap: 10px; }
+}
