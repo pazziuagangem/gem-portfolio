@@ -127,7 +127,7 @@
 
 .timeline-item {
   display: grid;
-  grid-template-columns: 110px 20px 1fr;
+  grid-template-columns: 150px 20px 1fr;
   align-items: center;
   gap: 16px;
   padding: 14px 0;

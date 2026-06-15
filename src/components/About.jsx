@@ -9,10 +9,11 @@ function About() {
   ];
 
   const timeline = [
-    { year: '2024–2026', role: 'OutSystems Developer', company: 'Pacifico Assistance Corp.' },
-    { year: '2023–2024', role: 'Business Owner', company: 'Mi Fortress Coffee Shop' },
-    { year: '2020–2023', role: 'System Developer II', company: 'SeidoPro Global Inc.' },
-    { year: '2018–2020', role: 'Documentation Associate', company: 'SeidoPro Global Inc.' },
+    { year: 'Aug 2024 – Feb 2026', role: 'OutSystems Developer', company: 'Pacifico Assistance Corp.' },
+    { year: 'Oct 2023 – Jul 2024', role: 'Business Owner', company: 'Mi Fortress Coffee Shop' },
+    { year: 'Jan 2023 – Sep 2023', role: 'System Developer II', company: 'SeidoPro Global Inc.' },
+    { year: 'Oct 2020 – Dec 2022', role: 'System Developer', company: 'SeidoPro Global Inc.' },
+    { year: 'Aug 2018 – Sep 2020', role: 'Documentation Associate', company: 'SeidoPro Global Inc.' },
   ];
 
   return (
