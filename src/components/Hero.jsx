@@ -19,10 +19,7 @@ function Hero() {
           <span className="badge">Lean Six Sigma Yellow Belt</span>
           <span className="badge">6+ Years Experience</span>
         </div>
-        <div className="hero-actions">
-          <a href="#projects" className="btn-primary">View My Projects</a>
-          <a href="#contact" className="btn-secondary">Get In Touch</a>
-        </div>
+        
       </div>
       <div className="hero-visual">
         <img src="/profile.png" alt="Gem Pazziuagan" className="avatar-circle" />
@@ -39,6 +36,10 @@ function Hero() {
             <span className="stat-num">70%</span>
             <span className="stat-label">Process time saved</span>
           </div>
+        </div>
+        <div className="hero-actions">
+          <a href="#projects" className="btn-primary">View My Projects</a>
+          <a href="#contact" className="btn-secondary">Get In Touch</a>
         </div>
       </div>
     </section>

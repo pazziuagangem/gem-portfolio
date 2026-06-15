@@ -35,11 +35,7 @@ function About() {
               I genuinely enjoy finding where manual, time-consuming processes exist and
               engineering solutions that make them disappear.
             </p>
-            <p>
-              One of my proudest achievements: building a bulk data uploader that reduced
-              insurance client file processing from a <strong>full day down to 5–10 minutes</strong> —
-              enabling same-day turnaround instead of a growing backlog.
-            </p>
+            
             <div className="about-meta">
               <div className="meta-item">
                 <span className="meta-icon">📍</span>
@@ -57,6 +53,7 @@ function About() {
           </div>
 
           <div className="about-right">
+            <center>
             <div className="skills-block">
               <h3 className="block-title">Technical skills</h3>
               {skills.map((group) => (
@@ -70,24 +67,70 @@ function About() {
                 </div>
               ))}
             </div>
+            </center>
           </div>
         </div>
 
-        <div className="timeline-block">
-          <h3 className="block-title">Career timeline</h3>
-          <div className="timeline">
-            {timeline.map((item, i) => (
-              <div className="timeline-item" key={i}>
-                <div className="timeline-year">{item.year}</div>
-                <div className="timeline-dot"></div>
-                <div className="timeline-info">
-                  <div className="timeline-role">{item.role}</div>
-                  <div className="timeline-company">{item.company}</div>
-                </div>
-              </div>
-            ))}
+        <div className="bottom-grid">
+
+  <div className="timeline-block">
+    <h3 className="block-title">Career timeline</h3>
+    <div className="timeline">
+      {timeline.map((item, i) => (
+        <div className="timeline-item" key={i}>
+          <div className="timeline-year">{item.year}</div>
+          <div className="timeline-line"></div>
+          <div className="timeline-info">
+            <div className="timeline-role">{item.role}</div>
+            <div className="timeline-company">{item.company}</div>
           </div>
         </div>
+      ))}
+    </div>
+  </div>
+
+  <div className="achievements-block">
+    <h3 className="block-title">Key achievements</h3>
+
+    <div className="achievement-item">
+      <div className="achievement-icon">⚡</div>
+      <div className="achievement-content">
+        <div className="achievement-title">Bulk Data Uploader</div>
+        <div className="achievement-company">Pacifico Assistance Corp.</div>
+        <p className="achievement-desc">
+          Built a bulk uploader for insurance client files of 5,000–10,000 records.
+          Reduced processing time from a <strong>full day to 5–10 minutes</strong> per
+          file — enabling same-day turnaround instead of a 1–2 file/day backlog.
+        </p>
+        <div className="achievement-stat">
+          <span className="stat-before">~8 hrs</span>
+          <span className="stat-arrow">→</span>
+          <span className="stat-after">5–10 mins</span>
+        </div>
+      </div>
+    </div>
+
+    <div className="achievement-item">
+      <div className="achievement-icon">📊</div>
+      <div className="achievement-content">
+        <div className="achievement-title">Excel Report Automation</div>
+        <div className="achievement-company">SeidoPro Global Inc.</div>
+        <p className="achievement-desc">
+          Created Excel automation templates eliminating manual report generation.
+          Users paste raw data and the template auto-produces the required format —
+          cutting daily report time by <strong>50–70%</strong>.
+        </p>
+        <div className="achievement-stat">
+          <span className="stat-before">15–30 mins</span>
+          <span className="stat-arrow">→</span>
+          <span className="stat-after">5–15 mins</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
 
       </div>
     </section>
